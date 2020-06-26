@@ -8,7 +8,7 @@ const { TabPane } = Tabs;
 
 const Layout = () => {
   // const tab = parseUrl
-  const defaultActiveKey = tabs[0].id;
+  const defaultActiveKey = tabs[1].id;
   const [activeTab, setActiveTab] = useState(defaultActiveKey);
 
   return (

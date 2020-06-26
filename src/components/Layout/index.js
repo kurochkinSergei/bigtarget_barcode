@@ -12,7 +12,7 @@ export const tabs = [
   },
   {
     id: "publications",
-    label: "Публикации",
+    label: "Опыт",
   },
   {
     id: "insights",
