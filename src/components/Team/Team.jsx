@@ -4,9 +4,8 @@ import TeamList from "./TeamList/TeamList";
 const Team = () => {
   return (
     <>
-      <div className="content-header">Наша команда</div>
+      <div className="content-header">Команда barcode</div>
       <TeamList />
-      {/* <div className="content-header">Публикации</div> */}
     </>
   );
 };

@@ -7,6 +7,8 @@ export const roles = {
   ds: "Data Science",
   dev: "Разработка",
   pitch: "Питч",
+  fe: "Frontend",
+  rs: "Research",
   presentation: "Презентация",
   management: "Управление командой",
 };
@@ -19,7 +21,7 @@ export const members = [
     roles: ["ds", "pitch", "presentation"],
     github: "https://github.com/maks-sh",
     linkedin: "https://www.linkedin.com/in/maks-sh/",
-    description: "",
+    description: `Power Uplift'ер. Соавтор цикла статей на хабре «Туториал по uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования uplift.`,
   },
   {
     id: "irina",
@@ -28,22 +30,25 @@ export const members = [
     roles: ["ds", "presentation", "management"],
     github: "https://github.com/ElisovaIra",
     linkedin: "https://www.linkedin.com/in/irina-elisova-23b4b4bb/",
-    description: "",
+    description:
+      "Предприниматель. Соавтор цикла статей на хабре «Туториал по uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования uplift.",
   },
   {
     id: "sergei",
     img: sergeiImg,
     name: "Сергей Курочкин",
-    roles: ["dev"],
+    roles: ["dev", "fe"],
     github: "https://github.com/kurochkinSergei",
-    description: "",
+    description:
+      "Javascript разработчик. Ниндзя React приложений с опытом разработки коммерческих решений в сфере bigdata.",
   },
   {
     id: "sergei",
     img: kirillImg,
     name: "Кирилл Ликсаков",
-    roles: ["ds"],
+    roles: ["ds", "rs"],
     github: "https://github.com/kirrlix1994",
-    description: "",
+    description:
+      "Математик. Танцор. Разработчик библиотеки scikit-uplift для моделирования uplift.",
   },
 ];

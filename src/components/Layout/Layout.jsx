@@ -2,17 +2,20 @@ import React, { useState } from "react";
 import { tabs, tabContent } from "./index";
 import { elPurple, white } from "constants/colors";
 
+import barcode from "assets/barcode.svg";
+
 import "./Layout.scss";
 import { Tabs } from "antd";
 const { TabPane } = Tabs;
 
 const Layout = () => {
   // const tab = parseUrl
-  const defaultActiveKey = tabs[1].id;
+  const defaultActiveKey = tabs[0].id;
   const [activeTab, setActiveTab] = useState(defaultActiveKey);
 
   return (
     <div className="layout">
+      {/* <img className="barcode" src={barcode} alt="barcode" /> */}
       <div className="tabbar">
         <Tabs
           defaultActiveKey={defaultActiveKey}
@@ -20,7 +23,16 @@ const Layout = () => {
           tabPosition="right"
         >
           {tabs.map((tab) => (
-            <TabPane tab={tab.label} key={tab.id} />
+            <TabPane
+              tab={
+                tab.id === "team" ? (
+                  <img src={barcode} className="barcode" alt="barcode" />
+                ) : (
+                  tab.label
+                )
+              }
+              key={tab.id}
+            />
           ))}
         </Tabs>
       </div>

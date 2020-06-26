@@ -11,6 +11,18 @@
   // padding: 0 16px;
 }
 
+.barcode {
+  // position: fixed;
+  // bottom: 8px;
+  // left: 8px;
+  width: 94px;
+  // z-index: 101;
+}
+
+.ant-tabs-tab:first-child {
+  padding: 2px 8px !important;
+}
+
 .tabbar {
   position: fixed;
   top: 0;

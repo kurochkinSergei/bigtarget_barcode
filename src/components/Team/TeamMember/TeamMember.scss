@@ -3,7 +3,7 @@
 .team-member {
   position: relative;
   width: 360px;
-  height: 480px;
+  height: 540px;
   padding: 16px;
   background: $elPurple;
 
@@ -21,6 +21,10 @@
     font-weight: bold;
     font-size: 24px;
     color: $elYellow;
+  }
+
+  .description {
+    color: $elBlue;
   }
 
   .social {
