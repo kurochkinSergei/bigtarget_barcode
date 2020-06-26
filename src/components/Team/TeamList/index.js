@@ -21,7 +21,7 @@ export const members = [
     roles: ["ds", "pitch", "presentation"],
     github: "https://github.com/maks-sh",
     linkedin: "https://www.linkedin.com/in/maks-sh/",
-    description: `Power Uplift'ер. Соавтор цикла статей на хабре «Туториал по uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования uplift.`,
+    description: `Power Uplift'ер. Соавтор цикла статей на хабре «Туториал по Uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования Uplift.`,
   },
   {
     id: "irina",
@@ -31,7 +31,7 @@ export const members = [
     github: "https://github.com/ElisovaIra",
     linkedin: "https://www.linkedin.com/in/irina-elisova-23b4b4bb/",
     description:
-      "Предприниматель. Соавтор цикла статей на хабре «Туториал по uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования uplift.",
+      "Предприниматель. Соавтор цикла статей на хабре «Туториал по Uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования Uplift.",
   },
   {
     id: "sergei",
@@ -49,6 +49,6 @@ export const members = [
     roles: ["ds", "rs"],
     github: "https://github.com/kirrlix1994",
     description:
-      "Математик. Танцор. Разработчик библиотеки scikit-uplift для моделирования uplift.",
+      "Математик. Танцор. Призер соревнования по Uplift моделированию от Х5. Разработчик библиотеки scikit-uplift для моделирования Uplift.",
   },
 ];

@@ -15,7 +15,7 @@ const Layout = () => {
 
   return (
     <div className="layout">
-      {/* <img className="barcode" src={barcode} alt="barcode" /> */}
+      <img className="barcode" src={barcode} alt="barcode" />
       <div className="tabbar">
         <Tabs
           defaultActiveKey={defaultActiveKey}
@@ -23,16 +23,7 @@ const Layout = () => {
           tabPosition="right"
         >
           {tabs.map((tab) => (
-            <TabPane
-              tab={
-                tab.id === "team" ? (
-                  <img src={barcode} className="barcode" alt="barcode" />
-                ) : (
-                  tab.label
-                )
-              }
-              key={tab.id}
-            />
+            <TabPane tab={tab.label} key={tab.id} />
           ))}
         </Tabs>
       </div>

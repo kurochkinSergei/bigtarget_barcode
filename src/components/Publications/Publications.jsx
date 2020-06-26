@@ -10,7 +10,7 @@ import Publication from "./Publication/Publication";
 const Publications = () => {
   return (
     <>
-      <div className="content-header">Экспертиза uplift моделирования</div>
+      <div className="content-header">Uplift экспертиза</div>
 
       <div className="publications">
         <Publication

@@ -15,7 +15,8 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "shapjs": "^0.35.2-rc.1"
   },
   "scripts": {
     "start": "craco start",

@@ -12,22 +12,17 @@
 }
 
 .barcode {
-  // position: fixed;
-  // bottom: 8px;
-  // left: 8px;
+  position: fixed;
+  top: 8px;
+  left: 8px;
   width: 94px;
-  // z-index: 101;
-}
-
-.ant-tabs-tab:first-child {
-  padding: 2px 8px !important;
+  z-index: 101;
 }
 
 .tabbar {
   position: fixed;
-  top: 0;
   left: 0;
-  padding-top: 16px;
+  padding-top: 48px;
   width: 110px;
   height: 100%;
   background: white;

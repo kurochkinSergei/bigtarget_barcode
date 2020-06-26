@@ -8,7 +8,7 @@ import Azure from "components/Azure/Azure";
 export const tabs = [
   {
     id: "team",
-    label: "barcode",
+    label: "Команда",
   },
   {
     id: "publications",
