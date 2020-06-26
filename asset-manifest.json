@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/bigtarget_barcode/static/css/main.f7057d71.chunk.css",
-    "main.js": "/bigtarget_barcode/static/js/main.28e80f6f.chunk.js",
-    "main.js.map": "/bigtarget_barcode/static/js/main.28e80f6f.chunk.js.map",
+    "main.css": "/bigtarget_barcode/static/css/main.d6cd154c.chunk.css",
+    "main.js": "/bigtarget_barcode/static/js/main.9288ec8e.chunk.js",
+    "main.js.map": "/bigtarget_barcode/static/js/main.9288ec8e.chunk.js.map",
     "runtime-main.js": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js",
     "runtime-main.js.map": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js.map",
-    "static/js/2.21a46cbe.chunk.js": "/bigtarget_barcode/static/js/2.21a46cbe.chunk.js",
-    "static/js/2.21a46cbe.chunk.js.map": "/bigtarget_barcode/static/js/2.21a46cbe.chunk.js.map",
+    "static/js/2.08f6e36c.chunk.js": "/bigtarget_barcode/static/js/2.08f6e36c.chunk.js",
+    "static/js/2.08f6e36c.chunk.js.map": "/bigtarget_barcode/static/js/2.08f6e36c.chunk.js.map",
     "index.html": "/bigtarget_barcode/index.html",
-    "precache-manifest.13d7b09036d5574b1df572417c5b4eb7.js": "/bigtarget_barcode/precache-manifest.13d7b09036d5574b1df572417c5b4eb7.js",
+    "precache-manifest.8b22a23377a7a76a7731a5e176a4d5b0.js": "/bigtarget_barcode/precache-manifest.8b22a23377a7a76a7731a5e176a4d5b0.js",
     "service-worker.js": "/bigtarget_barcode/service-worker.js",
-    "static/css/main.f7057d71.chunk.css.map": "/bigtarget_barcode/static/css/main.f7057d71.chunk.css.map",
-    "static/js/2.21a46cbe.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.21a46cbe.chunk.js.LICENSE.txt"
+    "static/css/main.d6cd154c.chunk.css.map": "/bigtarget_barcode/static/css/main.d6cd154c.chunk.css.map",
+    "static/js/2.08f6e36c.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.08f6e36c.chunk.js.LICENSE.txt",
+    "static/media/irina_bw.jpg": "/bigtarget_barcode/static/media/irina_bw.589b6a07.jpg",
+    "static/media/kirill_bw.jpg": "/bigtarget_barcode/static/media/kirill_bw.b991285e.jpg",
+    "static/media/maksim_bw.jpg": "/bigtarget_barcode/static/media/maksim_bw.bf0d1fc4.jpg",
+    "static/media/sergei_bw.jpeg": "/bigtarget_barcode/static/media/sergei_bw.1a1c16a9.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.1bdca012.js",
-    "static/js/2.21a46cbe.chunk.js",
-    "static/css/main.f7057d71.chunk.css",
-    "static/js/main.28e80f6f.chunk.js"
+    "static/js/2.08f6e36c.chunk.js",
+    "static/css/main.d6cd154c.chunk.css",
+    "static/js/main.9288ec8e.chunk.js"
   ]
 }
