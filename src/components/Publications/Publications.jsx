@@ -18,6 +18,7 @@ const Publications = () => {
             top: 96,
             left: 126,
             width: 580,
+            height: 284,
           }}
           href="https://habr.com/ru/company/ru_mts/blog/485980/"
           source="Хабр"
@@ -31,6 +32,7 @@ const Publications = () => {
         <Publication
           style={{
             width: 380,
+            height: 318,
             top: 96 + 284 + 8,
             left: 126,
           }}
@@ -45,6 +47,7 @@ const Publications = () => {
         <Publication
           style={{
             width: 286,
+            height: 284,
             top: 96,
             left: 126 + 8 + 580,
           }}
@@ -58,6 +61,7 @@ const Publications = () => {
         <Publication
           style={{
             width: 319,
+            height: 318,
             top: 96 + 284 + 8,
             left: 126 + 8 + 380,
           }}
