@@ -1,0 +1,18 @@
+@import "constants/colors.scss";
+
+.layout {
+  min-width: 1280px;
+  padding: 0 16px;
+}
+
+.content-header {
+  display: inline-block;
+  padding: 0 8px;
+  line-height: 64px;
+  font-size: 41px;
+  font-weight: bold;
+  height: 64px;
+  background: $elYellow;
+  color: $elPurple;
+  text-transform: uppercase;
+}

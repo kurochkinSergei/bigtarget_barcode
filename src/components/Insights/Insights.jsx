@@ -1,7 +1,7 @@
 import React from "react";
 
 const Insights = () => {
-  return <div>Insights</div>;
+  return <div className="content-header">Инсайты</div>;
 };
 
 export default Insights;

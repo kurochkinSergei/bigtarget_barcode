@@ -1,13 +1,27 @@
 import React, { useState } from "react";
 import { tabs, tabContent } from "./index";
 
-const Layout = ({ content }) => {
+import "./Layout.scss";
+import { Tabs } from "antd";
+const { TabPane } = Tabs;
+
+const Layout = () => {
   // const tab = parseUrl
-  const [activeTab, setActiveTab] = useState(tabs[0].id);
+  const defaultActiveKey = tabs[0].id;
+  const [activeTab, setActiveTab] = useState(defaultActiveKey);
 
   return (
-    <div>
-      <div className="tabbar">{tabs.map((tab) => tab.id)}</div>
+    <div className="layout">
+      <div className="tabbar">
+        <Tabs
+          defaultActiveKey={defaultActiveKey}
+          onChange={(activeKey) => setActiveTab(activeKey)}
+        >
+          {tabs.map((tab) => (
+            <TabPane tab={tab.label} key={tab.id} />
+          ))}
+        </Tabs>
+      </div>
       <div className="tab-content">{tabContent[activeTab]}</div>
     </div>
   );

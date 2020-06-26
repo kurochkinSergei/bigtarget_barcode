@@ -1,7 +1,7 @@
 import React from "react";
 
 const Scoring = () => {
-  return <div>Scoring</div>;
+  return <div className="content-header">Скоринг</div>;
 };
 
 export default Scoring;
