@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/bigtarget_barcode/static/css/main.ead0e5e1.chunk.css",
-    "main.js": "/bigtarget_barcode/static/js/main.4aa01bad.chunk.js",
-    "main.js.map": "/bigtarget_barcode/static/js/main.4aa01bad.chunk.js.map",
+    "main.css": "/bigtarget_barcode/static/css/main.4fa85cf0.chunk.css",
+    "main.js": "/bigtarget_barcode/static/js/main.ed4b02b7.chunk.js",
+    "main.js.map": "/bigtarget_barcode/static/js/main.ed4b02b7.chunk.js.map",
     "runtime-main.js": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js",
     "runtime-main.js.map": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js.map",
-    "static/js/2.8b294dad.chunk.js": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js",
-    "static/js/2.8b294dad.chunk.js.map": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js.map",
+    "static/js/2.fdda194c.chunk.js": "/bigtarget_barcode/static/js/2.fdda194c.chunk.js",
+    "static/js/2.fdda194c.chunk.js.map": "/bigtarget_barcode/static/js/2.fdda194c.chunk.js.map",
     "index.html": "/bigtarget_barcode/index.html",
-    "precache-manifest.b1053e9e6d97cb829d830aa9913da9d1.js": "/bigtarget_barcode/precache-manifest.b1053e9e6d97cb829d830aa9913da9d1.js",
+    "precache-manifest.76d9521623220be00dddba3cdf7a1ebd.js": "/bigtarget_barcode/precache-manifest.76d9521623220be00dddba3cdf7a1ebd.js",
     "service-worker.js": "/bigtarget_barcode/service-worker.js",
-    "static/css/main.ead0e5e1.chunk.css.map": "/bigtarget_barcode/static/css/main.ead0e5e1.chunk.css.map",
-    "static/js/2.8b294dad.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js.LICENSE.txt",
-    "static/media/github.svg": "/bigtarget_barcode/static/media/github.c4cfcd0f.svg",
+    "static/css/main.4fa85cf0.chunk.css.map": "/bigtarget_barcode/static/css/main.4fa85cf0.chunk.css.map",
+    "static/js/2.fdda194c.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.fdda194c.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/bigtarget_barcode/static/media/github.dc1b4783.svg",
     "static/media/irina_bw.jpg": "/bigtarget_barcode/static/media/irina_bw.589b6a07.jpg",
     "static/media/kirill_bw.jpg": "/bigtarget_barcode/static/media/kirill_bw.b991285e.jpg",
     "static/media/linkedin.svg": "/bigtarget_barcode/static/media/linkedin.c0e50673.svg",
     "static/media/maksim_bw.jpg": "/bigtarget_barcode/static/media/maksim_bw.bf0d1fc4.jpg",
-    "static/media/sergei_bw.jpeg": "/bigtarget_barcode/static/media/sergei_bw.1a1c16a9.jpeg"
+    "static/media/sergei_bw.jpeg": "/bigtarget_barcode/static/media/sergei_bw.1a1c16a9.jpeg",
+    "static/media/sklift-logo.png": "/bigtarget_barcode/static/media/sklift-logo.df79b174.png",
+    "static/media/uplift-1.jpeg": "/bigtarget_barcode/static/media/uplift-1.00c16ca9.jpeg",
+    "static/media/uplift-pt-2.jpeg": "/bigtarget_barcode/static/media/uplift-pt-2.0a4a2ba9.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.1bdca012.js",
-    "static/js/2.8b294dad.chunk.js",
-    "static/css/main.ead0e5e1.chunk.css",
-    "static/js/main.4aa01bad.chunk.js"
+    "static/js/2.fdda194c.chunk.js",
+    "static/css/main.4fa85cf0.chunk.css",
+    "static/js/main.ed4b02b7.chunk.js"
   ]
 }
