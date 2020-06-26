@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# for Jupyter Notebooks
+*/.ipynb_checkpoints/*
