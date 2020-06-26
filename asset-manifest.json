@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/bigtarget_barcode/static/css/main.d6cd154c.chunk.css",
-    "main.js": "/bigtarget_barcode/static/js/main.9288ec8e.chunk.js",
-    "main.js.map": "/bigtarget_barcode/static/js/main.9288ec8e.chunk.js.map",
+    "main.css": "/bigtarget_barcode/static/css/main.96aebd50.chunk.css",
+    "main.js": "/bigtarget_barcode/static/js/main.4aa01bad.chunk.js",
+    "main.js.map": "/bigtarget_barcode/static/js/main.4aa01bad.chunk.js.map",
     "runtime-main.js": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js",
     "runtime-main.js.map": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js.map",
-    "static/js/2.08f6e36c.chunk.js": "/bigtarget_barcode/static/js/2.08f6e36c.chunk.js",
-    "static/js/2.08f6e36c.chunk.js.map": "/bigtarget_barcode/static/js/2.08f6e36c.chunk.js.map",
+    "static/js/2.8b294dad.chunk.js": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js",
+    "static/js/2.8b294dad.chunk.js.map": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js.map",
     "index.html": "/bigtarget_barcode/index.html",
-    "precache-manifest.8b22a23377a7a76a7731a5e176a4d5b0.js": "/bigtarget_barcode/precache-manifest.8b22a23377a7a76a7731a5e176a4d5b0.js",
+    "precache-manifest.14c62e62baa1b56a00d688b6921c01db.js": "/bigtarget_barcode/precache-manifest.14c62e62baa1b56a00d688b6921c01db.js",
     "service-worker.js": "/bigtarget_barcode/service-worker.js",
-    "static/css/main.d6cd154c.chunk.css.map": "/bigtarget_barcode/static/css/main.d6cd154c.chunk.css.map",
-    "static/js/2.08f6e36c.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.08f6e36c.chunk.js.LICENSE.txt",
+    "static/css/main.96aebd50.chunk.css.map": "/bigtarget_barcode/static/css/main.96aebd50.chunk.css.map",
+    "static/js/2.8b294dad.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/bigtarget_barcode/static/media/github.c4cfcd0f.svg",
     "static/media/irina_bw.jpg": "/bigtarget_barcode/static/media/irina_bw.589b6a07.jpg",
     "static/media/kirill_bw.jpg": "/bigtarget_barcode/static/media/kirill_bw.b991285e.jpg",
+    "static/media/linkedin.svg": "/bigtarget_barcode/static/media/linkedin.c0e50673.svg",
     "static/media/maksim_bw.jpg": "/bigtarget_barcode/static/media/maksim_bw.bf0d1fc4.jpg",
     "static/media/sergei_bw.jpeg": "/bigtarget_barcode/static/media/sergei_bw.1a1c16a9.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.1bdca012.js",
-    "static/js/2.08f6e36c.chunk.js",
-    "static/css/main.d6cd154c.chunk.css",
-    "static/js/main.9288ec8e.chunk.js"
+    "static/js/2.8b294dad.chunk.js",
+    "static/css/main.96aebd50.chunk.css",
+    "static/js/main.4aa01bad.chunk.js"
   ]
 }
