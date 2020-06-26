@@ -1,5 +1,9 @@
 import React from "react";
+import { roles as rolesDict } from "../TeamList/index";
+import { Tag, Divider } from "antd";
+
 import "./TeamMember.scss";
+import { white, elPurple, elYellow } from "constants/colors";
 
 const TeamMember = ({ id, name, img, roles, description }) => {
   return (
@@ -9,7 +13,19 @@ const TeamMember = ({ id, name, img, roles, description }) => {
       </div>
       <div className="content">
         <div className="name">{name}</div>
-        <div>{roles.map((role) => role)}</div>
+        <Divider
+          dashed
+          orientation="left"
+          style={{ borderColor: elYellow, margin: "8px 0" }}
+        />
+
+        <div style={{ lineHeight: "28px" }}>
+          {roles.map((role) => (
+            <Tag color={white} style={{ fontSize: 16, color: elPurple }}>
+              {rolesDict[role]}
+            </Tag>
+          ))}
+        </div>
         <div className="description">{description}</div>
       </div>
     </div>
