@@ -1,0 +1,24 @@
+@import "constants/colors.scss";
+
+.team-member {
+  width: 360px;
+  height: 540px;
+  padding: 16px;
+  background: $elPurple;
+
+  .img-wrapper {
+    border-radius: 1000px;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+
+    & > img {
+      width: 100%;
+    }
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 24px;
+    color: $elYellow;
+  }
+}

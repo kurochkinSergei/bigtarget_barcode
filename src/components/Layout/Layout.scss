@@ -1,8 +1,31 @@
 @import "constants/colors.scss";
 
+#root,
+.App {
+  height: 100%;
+}
+
 .layout {
   min-width: 1280px;
-  padding: 0 16px;
+  height: 100%;
+  // padding: 0 16px;
+}
+
+.tabbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 16px;
+  width: 110px;
+  height: 100%;
+  background: white;
+  z-index: 100;
+}
+
+.tab-content {
+  margin-left: 110px;
+  padding: 16px;
+  height: 100%;
 }
 
 .content-header {

@@ -1,3 +1,5 @@
+export const white = "#ffffff";
+
 export const elPurple = "#2d2784";
 export const elYellow = "#f6dd00";
 export const elBrown = "#6b2929";

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { tabs, tabContent } from "./index";
+import { elPurple, white } from "constants/colors";
 
 import "./Layout.scss";
 import { Tabs } from "antd";
@@ -16,13 +17,21 @@ const Layout = () => {
         <Tabs
           defaultActiveKey={defaultActiveKey}
           onChange={(activeKey) => setActiveTab(activeKey)}
+          tabPosition="right"
         >
           {tabs.map((tab) => (
             <TabPane tab={tab.label} key={tab.id} />
           ))}
         </Tabs>
       </div>
-      <div className="tab-content">{tabContent[activeTab]}</div>
+      <div
+        className="tab-content"
+        style={{
+          backgroundColor: activeTab === "team" ? elPurple : white,
+        }}
+      >
+        {tabContent[activeTab]}
+      </div>
     </div>
   );
 };
