@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bigtarget_barcode/static/css/main.96aebd50.chunk.css",
+    "main.css": "/bigtarget_barcode/static/css/main.ead0e5e1.chunk.css",
     "main.js": "/bigtarget_barcode/static/js/main.4aa01bad.chunk.js",
     "main.js.map": "/bigtarget_barcode/static/js/main.4aa01bad.chunk.js.map",
     "runtime-main.js": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js",
@@ -8,9 +8,9 @@
     "static/js/2.8b294dad.chunk.js": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js",
     "static/js/2.8b294dad.chunk.js.map": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js.map",
     "index.html": "/bigtarget_barcode/index.html",
-    "precache-manifest.14c62e62baa1b56a00d688b6921c01db.js": "/bigtarget_barcode/precache-manifest.14c62e62baa1b56a00d688b6921c01db.js",
+    "precache-manifest.b1053e9e6d97cb829d830aa9913da9d1.js": "/bigtarget_barcode/precache-manifest.b1053e9e6d97cb829d830aa9913da9d1.js",
     "service-worker.js": "/bigtarget_barcode/service-worker.js",
-    "static/css/main.96aebd50.chunk.css.map": "/bigtarget_barcode/static/css/main.96aebd50.chunk.css.map",
+    "static/css/main.ead0e5e1.chunk.css.map": "/bigtarget_barcode/static/css/main.ead0e5e1.chunk.css.map",
     "static/js/2.8b294dad.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.8b294dad.chunk.js.LICENSE.txt",
     "static/media/github.svg": "/bigtarget_barcode/static/media/github.c4cfcd0f.svg",
     "static/media/irina_bw.jpg": "/bigtarget_barcode/static/media/irina_bw.589b6a07.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.1bdca012.js",
     "static/js/2.8b294dad.chunk.js",
-    "static/css/main.96aebd50.chunk.css",
+    "static/css/main.ead0e5e1.chunk.css",
     "static/js/main.4aa01bad.chunk.js"
   ]
 }
