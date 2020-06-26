@@ -1,5 +1,6 @@
 import React from "react";
 import Team from "components/Team/Team";
+import Publications from "components/Publications/Publications";
 import Insigths from "components/Insights/Insights";
 import Scoring from "components/Scoring/Scoring";
 import Azure from "components/Azure/Azure";
@@ -8,6 +9,10 @@ export const tabs = [
   {
     id: "team",
     label: "Команда",
+  },
+  {
+    id: "publications",
+    label: "Публикации",
   },
   {
     id: "insights",
@@ -25,6 +30,7 @@ export const tabs = [
 
 export const tabContent = {
   team: <Team />,
+  publications: <Publications />,
   insights: <Insigths />,
   scoring: <Scoring />,
   azure: <Azure />,

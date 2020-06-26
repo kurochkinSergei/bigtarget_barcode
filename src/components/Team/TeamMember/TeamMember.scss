@@ -1,8 +1,9 @@
 @import "constants/colors.scss";
 
 .team-member {
+  position: relative;
   width: 360px;
-  height: 540px;
+  height: 480px;
   padding: 16px;
   background: $elPurple;
 
@@ -20,5 +21,19 @@
     font-weight: bold;
     font-size: 24px;
     color: $elYellow;
+  }
+
+  .social {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .social-icon {
+      width: 24px;
+      margin-left: 12px;
+    }
   }
 }

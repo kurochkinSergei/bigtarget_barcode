@@ -17,7 +17,8 @@ export const members = [
     img: maxImg,
     name: "Максим Шевченко",
     roles: ["ds", "pitch", "presentation"],
-    gihub: "",
+    github: "https://github.com/maks-sh",
+    linkedin: "https://www.linkedin.com/in/maks-sh/",
     description: "",
   },
   {
@@ -25,7 +26,8 @@ export const members = [
     img: irinaImg,
     name: "Ирина Елисова",
     roles: ["ds", "presentation", "management"],
-    gihub: "",
+    github: "https://github.com/ElisovaIra",
+    linkedin: "https://www.linkedin.com/in/irina-elisova-23b4b4bb/",
     description: "",
   },
   {
@@ -33,7 +35,7 @@ export const members = [
     img: sergeiImg,
     name: "Сергей Курочкин",
     roles: ["dev"],
-    gihub: "",
+    github: "https://github.com/kurochkinSergei",
     description: "",
   },
   {
@@ -41,7 +43,7 @@ export const members = [
     img: kirillImg,
     name: "Кирилл Ликсаков",
     roles: ["ds"],
-    gihub: "",
+    github: "https://github.com/kirrlix1994",
     description: "",
   },
 ];
