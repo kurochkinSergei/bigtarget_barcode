@@ -43,9 +43,10 @@ export const members = [
       "Javascript разработчик. Ниндзя React приложений с опытом разработки коммерческих решений в сфере bigdata.",
   },
   {
-    id: "sergei",
+    id: "kirill",
     img: kirillImg,
     name: "Кирилл Ликсаков",
+    linkedin: "https://www.linkedin.com/in/kirill-liksakov-19769a107/",
     roles: ["ds", "rs"],
     github: "https://github.com/kirrlix1994",
     description:

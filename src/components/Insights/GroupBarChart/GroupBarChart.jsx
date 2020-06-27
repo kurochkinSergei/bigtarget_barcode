@@ -13,8 +13,9 @@ import {
 
 const d = [
   {
-    name: "axis",
-    ...data["Grouped bar chart"],
+    name: "Группа",
+    control: Math.round(data["Grouped bar chart"].control / 1000),
+    test: Math.round(data["Grouped bar chart"].test / 1000),
   },
 ];
 
@@ -36,7 +37,7 @@ const GroupBarChart = ({ title, caption, description }) => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis />
+          <YAxis unit="тыс." />
           <Tooltip />
           <Legend />
           <Bar dataKey="control" stackId="a" fill="#8884d8" />

@@ -10,17 +10,18 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
+  Label,
 } from "recharts";
 import { elPurple, elRed } from "constants/colors";
 
 const getData = () => {
   const series = [
     {
-      name: "actual",
+      name: "model",
       data: [],
     },
     {
-      name: "x = y",
+      name: "random",
       data: [
         {
           x: 0,
@@ -56,15 +57,30 @@ const Roc = ({ title, caption, description }) => {
           width={500}
           height={300}
           margin={{
-            top: 5,
-            right: 30,
+            top: 20,
+            right: 40,
             left: 20,
             bottom: 5,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="x" type="number" domain={[0, 1]} />
-          <YAxis dataKey="y" />
+          <XAxis dataKey="x" type="number" domain={[0, 1]}>
+            <Label
+              value="False Positive Rate"
+              offset={40}
+              position="insideBottomRight"
+            />
+          </XAxis>
+
+          <YAxis dataKey="y">
+            <Label
+              value="True Positive Rate"
+              offset={0}
+              // textAnchor="middle"
+              angle={-90}
+              position="insideLeft"
+            />
+          </YAxis>
           <Tooltip />
           <Legend />
           {series.map((s, i) => (

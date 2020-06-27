@@ -14,9 +14,9 @@ import {
 
 const d = [
   {
-    name: "axis",
-    control: round(data["Bar chart"].control, 6),
-    test: round(data["Bar chart"].test, 6),
+    name: "Группа",
+    control: round(data["Bar chart"].control * 100, 3),
+    test: round(data["Bar chart"].test * 100, 3),
   },
 ];
 
@@ -38,14 +38,14 @@ const MyBarChart = ({ title, caption, description }) => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis />
+          <YAxis unit="%" />
           <Tooltip />
           <Legend />
           <Bar dataKey="control" stackId="control" fill="#8884d8" />
           <Bar dataKey="test" stackId="test" fill="#82ca9d" />
         </BarChart>
       </div>
-      <div className="caption">{caption}</div>
+      {caption && <div className="caption">{caption}</div>}
       <p className="description">{description}</p>
     </div>
   );
