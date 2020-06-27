@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { tabs, tabContent } from "./index";
 import { elPurple, white } from "constants/colors";
 
@@ -8,18 +8,38 @@ import "./Layout.scss";
 import { Tabs } from "antd";
 const { TabPane } = Tabs;
 
+const getActiveTabFromUrl = () => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  return urlParams.get("tab");
+};
+
 const Layout = () => {
-  // const tab = parseUrl
-  const defaultActiveKey = tabs[0].id;
+  const defaultActiveKey = getActiveTabFromUrl() || tabs[0].id;
   const [activeTab, setActiveTab] = useState(defaultActiveKey);
 
+  useEffect(() => {
+    window.onpopstate = (e) => {
+      if (!e.state.tab) return;
+      setActiveTab(e.state.tab);
+    };
+  }, []);
   return (
     <div className="layout">
       <img className="barcode" src={barcode} alt="barcode" />
       <div className="tabbar">
         <Tabs
-          defaultActiveKey={defaultActiveKey}
-          onChange={(activeKey) => setActiveTab(activeKey)}
+          activeKey={activeTab}
+          onChange={(activeKey) => {
+            if (activeKey === activeTab) return;
+            setActiveTab(activeKey);
+            const selectedTab = tabs.find((tab) => tab.id === activeKey);
+            window.history.pushState(
+              { tab: selectedTab.id },
+              selectedTab.label,
+              `?tab=${selectedTab.id}`
+            );
+          }}
           tabPosition="right"
         >
           {tabs.map((tab) => (

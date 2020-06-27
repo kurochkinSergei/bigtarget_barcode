@@ -11,7 +11,7 @@ export const tabs = [
     label: "Команда",
   },
   {
-    id: "publications",
+    id: "experience",
     label: "Опыт",
   },
   {
@@ -30,7 +30,7 @@ export const tabs = [
 
 export const tabContent = {
   team: <Team />,
-  publications: <Publications />,
+  experience: <Publications />,
   insights: <Insigths />,
   scoring: <Scoring />,
   azure: <Azure />,
