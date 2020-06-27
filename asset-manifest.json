@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bigtarget_barcode/static/css/main.f94d026a.chunk.css",
-    "main.js": "/bigtarget_barcode/static/js/main.179a24bc.chunk.js",
-    "main.js.map": "/bigtarget_barcode/static/js/main.179a24bc.chunk.js.map",
+    "main.css": "/bigtarget_barcode/static/css/main.321f681f.chunk.css",
+    "main.js": "/bigtarget_barcode/static/js/main.8af4fd1e.chunk.js",
+    "main.js.map": "/bigtarget_barcode/static/js/main.8af4fd1e.chunk.js.map",
     "runtime-main.js": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js",
     "runtime-main.js.map": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js.map",
-    "static/js/2.90f54443.chunk.js": "/bigtarget_barcode/static/js/2.90f54443.chunk.js",
-    "static/js/2.90f54443.chunk.js.map": "/bigtarget_barcode/static/js/2.90f54443.chunk.js.map",
+    "static/js/2.f9e51bcf.chunk.js": "/bigtarget_barcode/static/js/2.f9e51bcf.chunk.js",
+    "static/js/2.f9e51bcf.chunk.js.map": "/bigtarget_barcode/static/js/2.f9e51bcf.chunk.js.map",
     "index.html": "/bigtarget_barcode/index.html",
-    "precache-manifest.8310862c3cc3f0f5ef38f7bbf168a679.js": "/bigtarget_barcode/precache-manifest.8310862c3cc3f0f5ef38f7bbf168a679.js",
+    "precache-manifest.73791c71c2eb81b7431b129b1d86a081.js": "/bigtarget_barcode/precache-manifest.73791c71c2eb81b7431b129b1d86a081.js",
     "service-worker.js": "/bigtarget_barcode/service-worker.js",
-    "static/css/main.f94d026a.chunk.css.map": "/bigtarget_barcode/static/css/main.f94d026a.chunk.css.map",
-    "static/js/2.90f54443.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.90f54443.chunk.js.LICENSE.txt",
+    "static/css/main.321f681f.chunk.css.map": "/bigtarget_barcode/static/css/main.321f681f.chunk.css.map",
+    "static/js/2.f9e51bcf.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.f9e51bcf.chunk.js.LICENSE.txt",
     "static/media/barcode.svg": "/bigtarget_barcode/static/media/barcode.8f29825d.svg",
     "static/media/github.svg": "/bigtarget_barcode/static/media/github.dc1b4783.svg",
     "static/media/irina_bw.jpg": "/bigtarget_barcode/static/media/irina_bw.589b6a07.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1bdca012.js",
-    "static/js/2.90f54443.chunk.js",
-    "static/css/main.f94d026a.chunk.css",
-    "static/js/main.179a24bc.chunk.js"
+    "static/js/2.f9e51bcf.chunk.js",
+    "static/css/main.321f681f.chunk.css",
+    "static/js/main.8af4fd1e.chunk.js"
   ]
 }
