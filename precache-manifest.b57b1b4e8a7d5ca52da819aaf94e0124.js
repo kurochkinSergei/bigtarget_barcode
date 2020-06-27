@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f20c5b51a34558546cf7a75b7950f950",
+    "revision": "6e37d947b17ea2448d063f6573c48258",
     "url": "/bigtarget_barcode/index.html"
   },
   {
-    "revision": "07c80d1d5967030562ae",
+    "revision": "00ef8828816045f8a280",
     "url": "/bigtarget_barcode/static/css/main.321f681f.chunk.css"
   },
   {
-    "revision": "b0d7f950a0d507a4f3c4",
-    "url": "/bigtarget_barcode/static/js/2.f9e51bcf.chunk.js"
+    "revision": "7dcf709cc5b7d2043359",
+    "url": "/bigtarget_barcode/static/js/2.a59b3c0f.chunk.js"
   },
   {
-    "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/bigtarget_barcode/static/js/2.f9e51bcf.chunk.js.LICENSE.txt"
+    "revision": "065ba891bac8df5940a0794605944dff",
+    "url": "/bigtarget_barcode/static/js/2.a59b3c0f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07c80d1d5967030562ae",
-    "url": "/bigtarget_barcode/static/js/main.8af4fd1e.chunk.js"
+    "revision": "00ef8828816045f8a280",
+    "url": "/bigtarget_barcode/static/js/main.f2cf3694.chunk.js"
   },
   {
     "revision": "d4b3fb01bbf255cedf4b",
