@@ -17,6 +17,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "recharts": "^1.8.5",
     "shapjs": "^0.35.2-rc.1"
   },
   "scripts": {

@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import Table from "./Table/Table";
 import "./Scoring.scss";
 import { AdditiveForceVisualizer } from "components/Shap/index";
-import { findByLabelText } from "@testing-library/react";
 
 const Scoring = () => {
   const [selectedRow, setSelectedRow] = useState(null);
-
   return (
     <>
       <div className="content-header">Скоринг</div>

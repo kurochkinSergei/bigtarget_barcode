@@ -1,0 +1,66 @@
+@import "constants/colors.scss";
+
+.graph-wrapper {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: row;
+
+  .graph {
+    width: 600px;
+
+    .title {
+      font-size: 32px;
+      color: $elPurple;
+    }
+
+    .plot {
+    }
+
+    .caption {
+    }
+
+    .description {
+      color: $elPurple;
+      background: white;
+      padding: 8px;
+      margin: 8px 0;
+    }
+  }
+
+  .graph-selection {
+    margin-left: 16px;
+    width: 400px;
+    height: 326px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .pick {
+      cursor: pointer;
+      width: 160px;
+      height: 160px;
+      margin: 2px;
+      padding: 4px;
+      border: 4px solid transparent;
+      background: white;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      .pick-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgba($elPurple, 0.8);
+      }
+
+      .text {
+        color: $elBlue;
+      }
+      &.selected {
+        border: 4px solid rgba($elPurple, 0.8);
+      }
+    }
+  }
+}

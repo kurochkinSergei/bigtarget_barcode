@@ -33,6 +33,14 @@
   margin-left: 110px;
   padding: 16px;
   height: 100%;
+  background: white;
+
+  &.purple {
+    background: $elPurple;
+  }
+  &.yellow {
+    background: $elYellow;
+  }
 }
 
 .content-header {
@@ -45,4 +53,8 @@
   background: $elYellow;
   color: $elPurple;
   text-transform: uppercase;
+
+  &.white {
+    background: white;
+  }
 }

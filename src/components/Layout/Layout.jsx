@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { tabs, tabContent } from "./index";
-import { elPurple, white } from "constants/colors";
+import cn from "classnames";
 
 import barcode from "assets/barcode.svg";
 
@@ -48,10 +48,10 @@ const Layout = () => {
         </Tabs>
       </div>
       <div
-        className="tab-content"
-        style={{
-          backgroundColor: activeTab === "team" ? elPurple : white,
-        }}
+        className={cn("tab-content", {
+          purple: activeTab === "team",
+          yellow: activeTab === "insights",
+        })}
       >
         {tabContent[activeTab]}
       </div>
