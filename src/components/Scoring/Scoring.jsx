@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import Table from "./Table/Table";
+import { data } from "./data";
+
 import "./Scoring.scss";
 import { AdditiveForceVisualizer } from "components/Shap/index";
 
 const Scoring = () => {
-  const [selectedRow, setSelectedRow] = useState(null);
+  const [selectedRow, setSelectedRow] = useState(data[0]);
   return (
     <>
       <div className="content-header">Скоринг</div>
       <Table selectedRow={selectedRow} setSelectedRow={setSelectedRow} />
 
-      <div style={{ marginBottom: 50, display: "flex" }}>
+      <div style={{ marginBottom: 50 }}>
         {selectedRow && (
           <div className="uplift">
             <div className="u">U</div>

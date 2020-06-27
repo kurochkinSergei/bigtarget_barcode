@@ -2,9 +2,9 @@ import React from "react";
 import { Table as AntdTable, Tooltip } from "antd";
 import { data } from "../data";
 import { elPurple } from "constants/colors";
+import round from "utils/round";
 
 const ColTitle = ({ title }) => {
-  console.log("title", title);
   if (title.length > 10)
     return (
       <Tooltip placement="bottom" color={elPurple} title={title}>
@@ -24,7 +24,7 @@ const getColumns = (data) => {
       width: 50,
       render: (text) => {
         if (text === undefined || text === null) return "";
-        return Math.round(parseFloat(text) * 1000) / 1000;
+        return round(text, 3);
       },
       ...(index === 0 && {
         fixed: "left",
@@ -34,9 +34,10 @@ const getColumns = (data) => {
 
   return colsArr;
 };
-const Table = ({ setSelectedRow }) => {
+const Table = ({ selectedRow, setSelectedRow }) => {
   const columns = getColumns(data);
   const rowSelection = {
+    selectedRowKeys: [selectedRow.key || 0],
     onChange: (selectedRowKeys, selectedRows) => {
       setSelectedRow(selectedRows[0]);
     },
@@ -58,7 +59,7 @@ const Table = ({ setSelectedRow }) => {
           type: "radio",
           ...rowSelection,
         }}
-        pagination={{ pageSize: 50, position: ["topRight"] }}
+        pagination={{ position: ["topRight"] }}
       />
     </div>
   );

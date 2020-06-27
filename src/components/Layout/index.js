@@ -22,10 +22,10 @@ export const tabs = [
     id: "scoring",
     label: "Скоринг",
   },
-  {
-    id: "azure",
-    label: "Azure ML",
-  },
+  // {
+  //   id: "azure",
+  //   label: "Azure ML",
+  // },
 ];
 
 export const tabContent = {

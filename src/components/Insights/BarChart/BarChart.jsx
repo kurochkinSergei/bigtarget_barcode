@@ -1,5 +1,6 @@
 import React from "react";
 import { data } from "../data";
+import round from "utils/round";
 
 import {
   BarChart,
@@ -14,7 +15,8 @@ import {
 const d = [
   {
     name: "axis",
-    ...data["Bar chart"],
+    control: round(data["Bar chart"].control, 6),
+    test: round(data["Bar chart"].test, 6),
   },
 ];
 

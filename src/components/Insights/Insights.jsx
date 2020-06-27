@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import cn from "classnames";
-import data from "./data";
 import { graphs } from "./graphs";
 import "./Insights.scss";
 

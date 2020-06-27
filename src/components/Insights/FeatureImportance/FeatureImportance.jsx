@@ -1,5 +1,6 @@
 import React from "react";
 import { data } from "../data";
+import round from "utils/round";
 
 import {
   ComposedChart,
@@ -14,10 +15,14 @@ import { elPurple } from "constants/colors";
 
 const getData = () => {
   const treatment = data["adv_treatment"];
-  return treatment["adv_validation_fi"].features.map((feature, index) => ({
-    name: feature,
-    importance: treatment["adv_validation_fi"].importances[index],
-  }));
+  return treatment["adv_validation_fi"].features.map((feature, index) => {
+    const importance = treatment["adv_validation_fi"].importances[index];
+
+    return {
+      name: feature,
+      importance: round(importance, 3),
+    };
+  });
 };
 
 const d = getData();
@@ -44,7 +49,7 @@ const FeatureImportance = ({ title, caption, description }) => {
         >
           <CartesianGrid stroke="#f5f5f5" />
           <XAxis type="number" />
-          <YAxis dataKey="name" type="category" />
+          <YAxis dataKey="name" type="category" minTickGap={0} />
           <Tooltip />
           <Legend />
           <Bar dataKey="importance" barSize={20} fill={elPurple} />

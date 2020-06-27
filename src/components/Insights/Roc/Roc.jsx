@@ -1,5 +1,6 @@
 import React from "react";
 import { data } from "../data";
+import round from "utils/round";
 
 import {
   LineChart,
@@ -37,8 +38,8 @@ const getData = () => {
 
   roc.x_model.forEach((x, i) => {
     series[0].data.push({
-      x,
-      y: roc.y_model[i],
+      x: round(x, 6),
+      y: round(roc.y_model[i], 6),
     });
   });
 

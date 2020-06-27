@@ -8,8 +8,8 @@
   padding: 8px;
   padding-left: 54px;
 
-  background-color: $elPurple;
-  color: $elYellow;
+  color: $elPurple;
+  border: 2px dashed #2d2784;
   .u {
     position: absolute;
     left: 24px;
@@ -26,6 +26,6 @@
   }
 
   .cardholder {
-    color: $elBlue;
+    color: black;
   }
 }
