@@ -10,7 +10,7 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-import { elPurple, elBrown, elRed } from "constants/colors";
+import { elPurple, elRed } from "constants/colors";
 
 const getData = () => {
   const series = [

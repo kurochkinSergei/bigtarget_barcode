@@ -40,10 +40,6 @@ const Table = ({ setSelectedRow }) => {
     onChange: (selectedRowKeys, selectedRows) => {
       setSelectedRow(selectedRows[0]);
     },
-    // getCheckboxProps: record => ({
-    //   disabled: record.name === 'Disabled User', // Column configuration not to be checked
-    //   name: record.name,
-    // }),
   };
 
   return (
@@ -51,6 +47,7 @@ const Table = ({ setSelectedRow }) => {
       style={{
         margin: 16,
         marginTop: -48,
+        width: `calc(100% - 32px)`,
       }}
     >
       <AntdTable

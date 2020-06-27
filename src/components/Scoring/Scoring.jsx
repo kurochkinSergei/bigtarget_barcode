@@ -12,6 +12,13 @@ const Scoring = () => {
 
       <div style={{ marginBottom: 50, display: "flex" }}>
         {selectedRow && (
+          <div className="uplift">
+            <div className="u">U</div>
+            <div className="cardholder">{selectedRow.cardholder}</div>
+            <div className="value">Uplift: {selectedRow.uplift}</div>
+          </div>
+        )}
+        {selectedRow && (
           <AdditiveForceVisualizer
             baseValue={0.0}
             link="identity"
@@ -37,14 +44,6 @@ const Scoring = () => {
               "7": { value: 3.0, effect: -0.8 },
             }}
           />
-        )}
-
-        {selectedRow && (
-          <div className="uplift">
-            <div className="u">U</div>
-            <div className="cardholder">{selectedRow.cardholder}</div>
-            <div className="value">Uplift: {selectedRow.uplift}</div>
-          </div>
         )}
       </div>
     </>
