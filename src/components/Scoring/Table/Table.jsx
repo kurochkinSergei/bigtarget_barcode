@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Table as AntdTable, Tooltip } from "antd";
 import { data } from "../data";
 import { elPurple } from "constants/colors";
@@ -50,6 +50,7 @@ const Table = ({ setSelectedRow }) => {
     <div
       style={{
         margin: 16,
+        marginTop: -48,
       }}
     >
       <AntdTable

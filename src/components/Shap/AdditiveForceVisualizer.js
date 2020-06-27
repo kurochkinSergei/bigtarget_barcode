@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React from "react";
 import { select } from "d3-selection";
 import { scaleLinear } from "d3-scale";
@@ -86,6 +87,7 @@ class AdditiveForceVisualizer extends React.Component {
     }
     this.colors = plot_colors.map((x) => hsl(x));
     this.brighterColors = [1.45, 1.6].map((v, i) => this.colors[i].brighter(v));
+    // eslint-disable-next-line array-callback-return
     this.colors.map((c, i) => {
       let grad = this.svg
         .append("linearGradient")
