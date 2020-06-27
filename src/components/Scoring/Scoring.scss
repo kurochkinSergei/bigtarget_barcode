@@ -1,0 +1,31 @@
+@import "constants/colors.scss";
+
+.uplift {
+  position: relative;
+  margin: 8px;
+  height: 72px;
+  width: 260px;
+  padding: 8px;
+  padding-left: 54px;
+
+  background-color: $elPurple;
+  color: $elYellow;
+  .u {
+    position: absolute;
+    left: 24px;
+    top: -21px;
+    font-size: 72px;
+    font-weight: bold;
+    opacity: 0.2;
+  }
+
+  .value {
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .cardholder {
+    color: $elBlue;
+  }
+}
