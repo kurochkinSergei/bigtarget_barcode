@@ -10,6 +10,7 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
+import { elPurple } from "constants/colors";
 
 const getData = () => {
   const treatment = data["adv_treatment"];
@@ -20,13 +21,6 @@ const getData = () => {
 };
 
 const d = getData();
-
-// const d = [
-//   {
-//     name: "axis",
-//     ...data["Bar chart"],
-//   },
-// ];
 
 const FeatureImportance = ({ title, caption, description }) => {
   return (
@@ -53,7 +47,7 @@ const FeatureImportance = ({ title, caption, description }) => {
           <YAxis dataKey="name" type="category" />
           <Tooltip />
           <Legend />
-          <Bar dataKey="importance" barSize={20} fill="#413ea0" />
+          <Bar dataKey="importance" barSize={20} fill={elPurple} />
         </ComposedChart>
       </div>
       <div className="caption">{caption}</div>
