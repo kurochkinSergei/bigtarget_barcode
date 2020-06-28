@@ -2,9 +2,9 @@
 
 .uplift {
   position: relative;
-  margin: 8px;
+  margin: 8px 0;
   height: 72px;
-  width: 260px;
+  width: 300px;
   padding: 8px;
   padding-left: 54px;
 
@@ -28,4 +28,9 @@
   .cardholder {
     color: black;
   }
+}
+
+.title {
+  font-size: 32px;
+  color: #2d2784;
 }

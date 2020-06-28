@@ -16,7 +16,7 @@ const ColTitle = ({ title }) => {
 
 const getColumns = (data) => {
   const colsArr = Object.keys(data[0])
-    .filter((key) => !["uplift"].includes(key))
+    .filter((key) => !["uplift", "shap"].includes(key))
     .map((key, index) => ({
       title: <ColTitle title={key} />,
       dataIndex: key,
@@ -36,6 +36,7 @@ const getColumns = (data) => {
 };
 const Table = ({ selectedRow, setSelectedRow }) => {
   const columns = getColumns(data);
+
   const rowSelection = {
     selectedRowKeys: [selectedRow.key || 0],
     onChange: (selectedRowKeys, selectedRows) => {
@@ -46,20 +47,22 @@ const Table = ({ selectedRow, setSelectedRow }) => {
   return (
     <div
       style={{
-        margin: 16,
-        marginTop: -48,
+        margin: "-48px 8px 16px",
         width: `calc(100% - 32px)`,
       }}
     >
       <AntdTable
         scroll={{ x: 1500, y: 300 }}
         columns={columns}
-        dataSource={data.map((data, index) => ({ ...data, key: index }))}
+        dataSource={data.map((data, index) => ({
+          ...data,
+          key: index,
+        }))}
         rowSelection={{
           type: "radio",
           ...rowSelection,
         }}
-        pagination={{ position: ["topRight"] }}
+        pagination={{ pageSize: 50, position: ["topRight"] }}
       />
     </div>
   );

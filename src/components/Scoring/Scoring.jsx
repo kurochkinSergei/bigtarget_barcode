@@ -1,52 +1,67 @@
 import React, { useState } from "react";
+
+import shapFeatures from "assets/shap_total.png";
 import Table from "./Table/Table";
 import { data } from "./data";
 
 import "./Scoring.scss";
 import { AdditiveForceVisualizer } from "components/Shap/index";
+import round from "utils/round";
+import get from "lodash/get";
 
 const Scoring = () => {
-  const [selectedRow, setSelectedRow] = useState(data[0]);
+  const [selectedRow, setSelectedRow] = useState({ ...data[0] });
+
+  const shap = get(selectedRow, "shap", null);
   return (
     <>
       <div className="content-header">Скоринг</div>
+      <div className="title">Данные</div>
+      <div>Выберите строку в таблице</div>
       <Table selectedRow={selectedRow} setSelectedRow={setSelectedRow} />
 
       <div style={{ marginBottom: 50 }}>
         {selectedRow && (
-          <div className="uplift">
-            <div className="u">U</div>
-            <div className="cardholder">{selectedRow.cardholder}</div>
-            <div className="value">Uplift: {selectedRow.uplift}</div>
-          </div>
+          <>
+            <div className="uplift">
+              <div className="u">U</div>
+              <div className="cardholder">{selectedRow.cardholder}</div>
+              <div className="value">
+                Uplift: {round(selectedRow.uplift, 6)}
+              </div>
+            </div>
+          </>
         )}
-        {selectedRow && (
-          <AdditiveForceVisualizer
-            baseValue={0.0}
-            link="identity"
-            featureNames={{
-              "0": "Blue",
-              "1": "Red",
-              "2": "Green",
-              "3": "Orange",
-              "4": "Brown",
-              "5": "Black",
-              "6": "Gray",
-              "7": "Purple",
-            }}
-            outNames={["output value"]}
-            features={{
-              "0": { value: 1.0, effect: 1.0 },
-              "1": { value: 0.0, effect: 0.01 },
-              "2": { value: 2.0, effect: -2.5 },
-              "3": { value: 4.0, effect: -0.5 },
-              "4": { value: 3.0, effect: 1.1 },
-              "5": { value: 1.0, effect: -0.6 },
-              "6": { value: 2.0, effect: -0.7 },
-              "7": { value: 3.0, effect: -0.8 },
-            }}
-          />
+        {shap && (
+          <>
+            <div className="title">Shap</div>
+            <div>{"uplift = 2 * (output_value) - 1"}</div>
+
+            <div
+              style={{
+                width: `calc(100% - 32px)`,
+              }}
+            >
+              <AdditiveForceVisualizer
+                baseValue={shap.baseValue}
+                link="identity"
+                featureNames={shap.featureNames}
+                outNames={["output value"]}
+                features={shap.features}
+              />
+            </div>
+          </>
         )}
+
+        <div className="title">Наиболее важные признаки</div>
+        <img
+          style={{
+            width: 600,
+            height: 480,
+          }}
+          src={shapFeatures}
+          alt="Наиболее важные признаки"
+        />
       </div>
     </>
   );
