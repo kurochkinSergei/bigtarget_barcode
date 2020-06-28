@@ -5,6 +5,7 @@
 }
 .publication {
   position: absolute;
+  z-index: 100;
   padding: 8px;
 
   img {
@@ -51,3 +52,14 @@
     background: rgba(#303b44, 0.9);
   }
 }
+
+// .square-bkg-publications {
+//   background: rgba($elPurple, 0.8);
+//   width: 5000px;
+//   height: 5000px;
+//   position: absolute;
+//   top: -200px;
+//   border-radius: 50%;
+//   z-index: 0;
+//   transform: rotate(45deg);
+// }

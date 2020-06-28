@@ -1,5 +1,14 @@
 @import "constants/colors.scss";
 
+.square-bkg {
+  background: rgba($elPurple, 0.8);
+  width: 5000px;
+  height: 5000px;
+  position: absolute;
+  top: -200px;
+  z-index: 0;
+  transform: rotate(45deg);
+}
 .graph-wrapper {
   padding: 16px 0;
   display: flex;
@@ -29,7 +38,7 @@
 
   .graph-selection {
     margin-left: 16px;
-    width: 400px;
+    width: 520px;
     height: 326px;
     display: flex;
     flex-direction: row;

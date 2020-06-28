@@ -14,7 +14,7 @@ import {
 } from "recharts";
 import { elPurple, elRed } from "constants/colors";
 
-const getData = () => {
+const getData = (datakey) => {
   const series = [
     {
       name: "model",
@@ -35,7 +35,7 @@ const getData = () => {
     },
   ];
 
-  const roc = data["adv_treatment"]["adv_validation_roc"];
+  const roc = data[datakey]["adv_validation_roc"];
 
   roc.x_model.forEach((x, i) => {
     series[0].data.push({
@@ -47,8 +47,8 @@ const getData = () => {
   return series;
 };
 
-const Roc = ({ title, caption, description }) => {
-  const series = getData();
+const Roc = ({ title, caption, description, datakey }) => {
+  const series = getData(datakey);
   return (
     <div className="graph">
       <div className="title">{title}</div>

@@ -10,7 +10,13 @@ import Publication from "./Publication/Publication";
 
 const Publications = () => {
   return (
-    <>
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        overflow: "hidden",
+      }}
+    >
       <div className="content-header">Uplift экспертиза</div>
 
       <div className="publications">
@@ -87,7 +93,9 @@ const Publications = () => {
           text="X5 has the ability to send SMS MESSAGES to customers in order to encourage them to make purchases. It is clear that it makes sense to make communication only for those customers..."
         />
       </div>
-    </>
+
+      {/* <div className="square-bkg-publications" /> */}
+    </div>
   );
 };
 

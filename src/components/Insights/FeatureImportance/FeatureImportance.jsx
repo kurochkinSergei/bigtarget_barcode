@@ -13,8 +13,8 @@ import {
 } from "recharts";
 import { elPurple } from "constants/colors";
 
-const getData = () => {
-  const treatment = data["adv_treatment"];
+const getData = (datakey) => {
+  const treatment = data[datakey];
   return treatment["adv_validation_fi"].features.map((feature, index) => {
     const importance = treatment["adv_validation_fi"].importances[index];
 
@@ -25,9 +25,9 @@ const getData = () => {
   });
 };
 
-const d = getData();
+const FeatureImportance = ({ title, caption, description, datakey }) => {
+  const d = getData(datakey);
 
-const FeatureImportance = ({ title, caption, description }) => {
   return (
     <div className="graph">
       <div className="title">{title}</div>
