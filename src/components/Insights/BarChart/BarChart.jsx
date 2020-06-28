@@ -46,7 +46,7 @@ const MyBarChart = ({ title, caption, description }) => {
         </BarChart>
       </div>
       {caption && <div className="caption">{caption}</div>}
-      <p className="description">{description}</p>
+      <p className="description">{description()}</p>
     </div>
   );
 };

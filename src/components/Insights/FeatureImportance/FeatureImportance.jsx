@@ -56,7 +56,7 @@ const FeatureImportance = ({ title, caption, description, datakey }) => {
         </ComposedChart>
       </div>
       <div className="caption">{caption}</div>
-      <p className="description">{description}</p>
+      <p className="description">{description()}</p>
     </div>
   );
 };

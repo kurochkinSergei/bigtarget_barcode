@@ -18,7 +18,7 @@
     width: 600px;
 
     .title {
-      font-size: 32px;
+      font-size: 28px;
       color: $elPurple;
     }
 
@@ -26,6 +26,8 @@
     }
 
     .caption {
+      font-style: italic;
+      text-align: right;
     }
 
     .description {

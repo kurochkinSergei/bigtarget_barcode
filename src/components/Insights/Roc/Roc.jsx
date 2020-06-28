@@ -97,7 +97,7 @@ const Roc = ({ title, caption, description, datakey }) => {
         </LineChart>
       </div>
       <div className="caption">{caption}</div>
-      <p className="description">{description}</p>
+      <p className="description">{description()}</p>
     </div>
   );
 };

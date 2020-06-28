@@ -45,7 +45,7 @@ const GroupBarChart = ({ title, caption, description }) => {
         </BarChart>
       </div>
       <div className="caption">{caption}</div>
-      <p className="description">{description}</p>
+      <p className="description">{description()}</p>
     </div>
   );
 };

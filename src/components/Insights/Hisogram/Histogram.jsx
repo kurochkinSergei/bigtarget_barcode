@@ -1,15 +1,8 @@
 import React from "react";
 
-import {
-  Histogram,
-  DensitySeries,
-  BarSeries,
-  XAxis,
-  YAxis,
-} from "@data-ui/histogram";
+import { Histogram, BarSeries, XAxis, YAxis } from "@data-ui/histogram";
 
 import { data } from "../data";
-const rawData = Array(100).fill().map(Math.random);
 
 const getData = (datakey) => {
   const d = data[datakey].distr;
@@ -26,7 +19,7 @@ const HistogramCmp = ({ title, caption, description, datakey }) => {
       <div className="plot">
         <Histogram
           width={500}
-          height={350}
+          height={300}
           ariaLabel="My histogram of ..."
           orientation="vertical"
           cumulative={false}
@@ -60,10 +53,24 @@ const HistogramCmp = ({ title, caption, description, datakey }) => {
         </Histogram>
       </div>
 
-      <div className="caption">{caption}</div>
-      <pre>
-        <p className="description">{description}</p>
-      </pre>
+      <div
+        style={{
+          position: "relative",
+          top: -24,
+        }}
+        className="caption"
+      >
+        {caption}
+      </div>
+      <p
+        className="description"
+        style={{
+          position: "relative",
+          top: -24,
+        }}
+      >
+        {description()}
+      </p>
     </div>
   );
 };
