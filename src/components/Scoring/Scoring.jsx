@@ -15,7 +15,7 @@ const Scoring = () => {
   const shap = get(selectedRow, "shap", null);
   return (
     <>
-      <div className="content-header">Скоринг</div>
+      <div className="content-header">Применение модели</div>
       <div className="title">Данные</div>
       <div>Выберите строку в таблице</div>
       <Table selectedRow={selectedRow} setSelectedRow={setSelectedRow} />
