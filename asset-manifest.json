@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bigtarget_barcode/static/css/main.e5485f87.chunk.css",
-    "main.js": "/bigtarget_barcode/static/js/main.deb07361.chunk.js",
-    "main.js.map": "/bigtarget_barcode/static/js/main.deb07361.chunk.js.map",
+    "main.js": "/bigtarget_barcode/static/js/main.e0ce2bf4.chunk.js",
+    "main.js.map": "/bigtarget_barcode/static/js/main.e0ce2bf4.chunk.js.map",
     "runtime-main.js": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js",
     "runtime-main.js.map": "/bigtarget_barcode/static/js/runtime-main.1bdca012.js.map",
     "static/js/2.6efb7f1a.chunk.js": "/bigtarget_barcode/static/js/2.6efb7f1a.chunk.js",
     "static/js/2.6efb7f1a.chunk.js.map": "/bigtarget_barcode/static/js/2.6efb7f1a.chunk.js.map",
     "index.html": "/bigtarget_barcode/index.html",
-    "precache-manifest.b7940201bb1059874e76786ac307479f.js": "/bigtarget_barcode/precache-manifest.b7940201bb1059874e76786ac307479f.js",
+    "precache-manifest.1d4b3f76220520b1d9159a8857014d90.js": "/bigtarget_barcode/precache-manifest.1d4b3f76220520b1d9159a8857014d90.js",
     "service-worker.js": "/bigtarget_barcode/service-worker.js",
     "static/css/main.e5485f87.chunk.css.map": "/bigtarget_barcode/static/css/main.e5485f87.chunk.css.map",
     "static/js/2.6efb7f1a.chunk.js.LICENSE.txt": "/bigtarget_barcode/static/js/2.6efb7f1a.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.1bdca012.js",
     "static/js/2.6efb7f1a.chunk.js",
     "static/css/main.e5485f87.chunk.css",
-    "static/js/main.deb07361.chunk.js"
+    "static/js/main.e0ce2bf4.chunk.js"
   ]
 }
