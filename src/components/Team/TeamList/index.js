@@ -39,7 +39,7 @@ export const members = [
     github: "https://github.com/ElisovaIra",
     linkedin: "https://www.linkedin.com/in/irina-elisova-23b4b4bb/",
     description:
-      "Стартапер. Соавтор цикла статей на хабре «Туториал по Uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования Uplift.",
+      "Data Scientist Стартапер. Соавтор цикла статей на хабре «Туториал по Uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования Uplift.",
   },
   {
     id: "sergei",
