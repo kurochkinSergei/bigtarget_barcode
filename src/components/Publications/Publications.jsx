@@ -94,7 +94,7 @@ const Publications = () => {
         />
       </div>
 
-      {/* <div className="square-bkg-publications" /> */}
+      <div className="square-bkg-publications" />
     </div>
   );
 };

@@ -53,13 +53,14 @@
   }
 }
 
-// .square-bkg-publications {
-//   background: rgba($elPurple, 0.8);
-//   width: 5000px;
-//   height: 5000px;
-//   position: absolute;
-//   top: -200px;
-//   border-radius: 50%;
-//   z-index: 0;
-//   transform: rotate(45deg);
-// }
+.square-bkg-publications {
+  background: rgba($elPurple, 0.8);
+  width: 500px;
+  height: 640px;
+  position: absolute;
+  top: 0px;
+  left: 684px;
+  border-radius: 50%;
+  z-index: 0;
+  transform: rotate(55deg);
+}
