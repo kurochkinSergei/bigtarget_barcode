@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import shapFeatures from "assets/shap_total.png";
+import qUplift from "assets/upl.png";
 import Table from "./Table/Table";
 import { data } from "./data";
 
@@ -61,6 +62,15 @@ const Scoring = () => {
           }}
           src={shapFeatures}
           alt="Наиболее важные признаки"
+        />
+        <div className="title">Uplift по квартилям</div>
+        <img
+          style={{
+            width: 600,
+            height: 480,
+          }}
+          src={qUplift}
+          alt="Uplift по квартилям"
         />
       </div>
     </>
