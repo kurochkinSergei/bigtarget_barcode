@@ -18,6 +18,7 @@ export const roles = {
   management: "Управление командой",
   vis: "Data Visualization",
   react: "React",
+  ab: "A/B",
 };
 
 export const members = [
@@ -25,7 +26,7 @@ export const members = [
     id: "maks",
     img: maxImg,
     name: "Максим Шевченко",
-    roles: ["ds", "pitch", "presentation", "ml", "geo", "dev"],
+    roles: ["ds", "pitch", "presentation", "ml", "geo", "dev", "ab"],
     github: "https://github.com/maks-sh",
     linkedin: "https://www.linkedin.com/in/maks-sh/",
     description: `Power Uplift'ер. Соавтор цикла статей на хабре «Туториал по Uplift моделированию». Разработчик библиотеки scikit-uplift для моделирования Uplift.`,
