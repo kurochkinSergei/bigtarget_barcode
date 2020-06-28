@@ -277,9 +277,6 @@ class AdditiveForceVisualizer extends React.Component {
       });
     blocks.exit().remove();
 
-    console.log("data", data);
-    console.log("totalEffect", totalEffect);
-
     let filteredData = filter(data, (d) => {
       return (
         scale(Math.abs(d.effect)) > scale(totalEffect) / 50 &&
@@ -405,7 +402,6 @@ class AdditiveForceVisualizer extends React.Component {
       .attr("fill", (d) => `url(#linear-backgrad-${d.effect > 0 ? 0 : 1})`);
     labelBacking.exit().remove();
 
-    console.log("filteredData", filteredData);
     let labelDividers = this.mainGroup
       .selectAll(".force-bar-labelDividers")
       .data(filteredData.slice(0, -1));
